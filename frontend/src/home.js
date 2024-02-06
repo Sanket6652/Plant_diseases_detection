@@ -254,7 +254,7 @@ export const ImageUpload = () => {
                     <TableHead className={classes.tableHead}>
                       <TableRow className={classes.tableRow}>
                         <TableCell className={classes.tableCell1}>Label:</TableCell>
-                        <TableCell align="right" className={classes.tableCell1}>What are the chances that the crop is affected:</TableCell>
+                        {/* <TableCell align="right" className={classes.tableCell1}>What are the chances that the crop is affected:</TableCell> */}
                       </TableRow>
                     </TableHead>
                     <TableBody className={classes.tableBody}>
@@ -262,7 +262,7 @@ export const ImageUpload = () => {
                         <TableCell component="th" scope="row" className={classes.tableCell}>
                           {data.class}
                         </TableCell>
-                        <TableCell align="right" className={classes.tableCell}>{confidence}%</TableCell>
+                        {/* <TableCell align="right" className={classes.tableCell}>{confidence}%</TableCell> */}
                       </TableRow>
                     </TableBody>
                   </Table>
